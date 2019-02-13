@@ -6,20 +6,22 @@ body {
   font-family:  Helvetica, sans-serif;
 }
 
+h1, h2, h3 {
+  font-weight: bold;
+}
+
 .highlighted {
   background-image: url("../Images/the-flatiron-building.png");
   color: white;
 }
 
-a {
+.navegator a {
   color: white;
-  text-decoration: underline;
   font-size: 18px;
 }
 
-h1 {
+.highlighted h1 {
   font-size: 70px;
-  font-weight: bold;
 }
 
 h2 {
@@ -30,15 +32,11 @@ h3 {
   font-size: 23px;
 }
 
-h1, h2, h3 {
-  font-weight: bold;
-}
-
 p {
   font-size: 14px;
 }
 
-.footer p {
+.footer {
   background-color: dimgray;
   font-size: 11px;
   color: white;
